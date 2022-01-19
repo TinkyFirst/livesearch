@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import SearchPanel from "./components/SearchPanel/SearchPanel";
 
 const App = () => {
     const [items, setItems] = useState ( [
@@ -11,7 +12,9 @@ const App = () => {
     const [search, setSeatch] = useState('')
 
     return(
-        <h1>hello world</h1>
+        <div>
+            <SearchPanel/>
+        </div>
 
     )
 
