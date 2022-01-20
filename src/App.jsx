@@ -31,16 +31,23 @@ const App = () => {
         )
     })
 
-
-
+const downloadFile = 0
     return(
+
         <div>
+
             <SearchPanel handleInputChange={handleInputChange}/>
             <div>
                 <ul>
                     {visibleItems}
                 </ul>
+                <div>
+                    <input type="file"/>
+                    <button>Sumbit</button>
+                </div>
+
             </div>
+
         </div>
 
     )
