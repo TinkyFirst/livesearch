@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import S from './SearchPanel.module.css'
 
 const SearchPanel = ({handleInputChange}) => {
 
@@ -11,7 +12,7 @@ const SearchPanel = ({handleInputChange}) => {
     }
     return(
         <div>
-            <input type="text"  onChange={changeInput} value={value}/>
+            <input className={S.input} type="text"  onChange={changeInput} value={value}/>
 
         </div>
     )

@@ -1,0 +1,10 @@
+ul{
+
+}
+li{
+    display: flex;
+    justify-content: center;
+    color:#4e4e58;
+    font-family: 'Dongle', sans-serif;
+    font-size: 44px;
+}

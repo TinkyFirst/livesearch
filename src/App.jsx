@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import SearchPanel from "./components/SearchPanel/SearchPanel";
+import s from './Label.module.css'
 
 const App = () => {
     const [items, setItems] = useState ( [
@@ -25,7 +26,7 @@ const App = () => {
 
     const visibleItems = searchItem(items, search).map(item => {
         return (
-            <li>
+            <li className={s.li}>
                 {item.label}
             </li>
         )
@@ -34,16 +35,15 @@ const App = () => {
 const downloadFile = 0
     return(
 
-        <div>
+        <div className={s.container}>
 
             <SearchPanel handleInputChange={handleInputChange}/>
             <div>
-                <ul>
+                <ul className={s.ul}>
                     {visibleItems}
                 </ul>
-                <div>
+                <div className={s.input_container}>
                     <input type="file"/>
-                    <button>Sumbit</button>
                 </div>
 
             </div>
