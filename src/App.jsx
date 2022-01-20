@@ -9,11 +9,38 @@ const App = () => {
         {id:3, label: 'Text4'},
     ])
 
-    const [search, setSeatch] = useState('')
+    const [search, setSearch] = useState('')
+
+    const handleInputChange = (searchValue) => setSearch(searchValue)
+
+    const searchItem = (item, search) => {
+    if (search.length === 0) {
+        return items
+    }
+
+    return items.filter(item => {
+        return item.label.toLowerCase().indexOf(search.toLowerCase()) > -1
+    })
+    }
+
+    const visibleItems = searchItem(items, search).map(item => {
+        return (
+            <li>
+                {item.label}
+            </li>
+        )
+    })
+
+
 
     return(
         <div>
-            <SearchPanel/>
+            <SearchPanel handleInputChange={handleInputChange}/>
+            <div>
+                <ul>
+                    {visibleItems}
+                </ul>
+            </div>
         </div>
 
     )
