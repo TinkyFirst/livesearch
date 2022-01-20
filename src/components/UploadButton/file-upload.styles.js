@@ -119,7 +119,7 @@ export const UploadFileBtn = styled.button`
 `;
 
 export const FilePreviewContainer = styled.article`
-  margin-bottom: 35px;
+  margin-bottom: 35px;    margin-top: 10px;
   span {
     font-size: 14px;
   }
@@ -147,6 +147,7 @@ export const FileMetaData = styled.div`
   color: white;
   font-weight: bold;
   background-color: rgba(5, 5, 5, 0.55);
+  width: 100%;
   aside {
     margin-top: auto;
     display: flex;
@@ -163,7 +164,8 @@ export const RemoveFileIcon = styled.i`
 
 export const PreviewContainer = styled.section`
   padding: 0.25rem;
-  width: 20%;
+  width: 50%;
+  margin: 0 auto;
   height: 120px;
   border-radius: 6px;
   box-sizing: border-box;
@@ -178,10 +180,11 @@ export const PreviewContainer = styled.section`
     position: relative;
   }
   @media only screen and (max-width: 750px) {
-    width: 25%;
+    width: 50%;
   }
   @media only screen and (max-width: 500px) {
-    width: 50%;
+    width: 100%;
+    margin: 0;
   }
   @media only screen and (max-width: 400px) {
     width: 100%;
