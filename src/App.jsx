@@ -3,10 +3,10 @@ import SearchPanel from "./components/SearchPanel/SearchPanel";
 
 const App = () => {
     const [items, setItems] = useState ( [
-        {id:0, label: 'Text1'},
-        {id:1, label: 'Text2'},
-        {id:2, label: 'Text3'},
-        {id:3, label: 'Text4'},
+        {id:0, label: '♂Dungeon♂Master♂ '},
+        {id:1, label: '. Fisting is 300 bucks'},
+        {id:2, label: 'FUCK YOU'},
+        {id:3, label: 'Im not gay, but 300 bucks its 300 bucks'},
     ])
 
     const [search, setSearch] = useState('')
