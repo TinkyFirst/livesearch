@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "WjnGjDDqAfO7bVWdefo3YDQsEjr4D640ooABpXxnKAEZCW/u/za6g4e2VQlkLsvHbdvWh5fRQnZmcvnorEiEvg==",
+  "success": true,
+  "projectFilePath": "D:\\livesearch\\be\\JsonParseApi\\JsonParseApi\\JsonParseApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
