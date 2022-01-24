@@ -2,6 +2,8 @@ import React, {useState} from 'react'
 import SearchPanel from "./components/SearchPanel/SearchPanel";
 import s from './Label.module.css'
 import FileUpload from "./components/UploadButton/file-upload.component";
+import axios from "axios";
+import apiUrl from "./Const";
 
 const App = () => {
 
@@ -22,7 +24,16 @@ const App = () => {
         {id:1, label: 'Fisting is 300 bucks'},
         {id:2, label: 'FUCK YOU'},
         {id:3, label: 'Im not gay, but 300 bucks its 300 bucks'},
-    ])
+    ]);
+    console.log(apiUrl)
+    // axios.get(apiUrl)
+    //     .then((response) => {
+    //         console.log(response.data);
+    //         console.log(response.status);
+    //         console.log(response.statusText);
+    //         console.log(response.headers);
+    //         console.log(response.config);
+    //     });
 
     const [search, setSearch] = useState('')
 

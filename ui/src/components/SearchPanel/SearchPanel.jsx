@@ -9,11 +9,13 @@ const SearchPanel = ({handleInputChange}) => {
         setValue(e.target.value)
 
         handleInputChange(e.target.value)
+
+
     }
     return(
+
         <div>
             <input className={S.input} type="text"  onChange={changeInput} value={value}/>
-
         </div>
     )
 }
